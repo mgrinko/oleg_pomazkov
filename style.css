@@ -1,0 +1,110 @@
+.mainContainer {
+	position: relative;
+	width: 226px;
+	height: 310px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #cccccc;
+}
+.simple {
+	background-color: #ffb6c1;
+	background-image: url(background.png);
+	background-position: right 80px;
+	background-size: 70% 35%;
+	background-repeat: no-repeat;
+}
+.smallContainer {
+	position: relative;
+	width: 226px;
+	height: 20px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #cccccc;
+	font-size: 14px;
+	font-weight: bold;
+}
+.viewChoose {
+	position: absolute;
+	width: 76px;
+	height: 39px;
+	top: 20px;
+	left: 10px; 
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.indicator {
+	position: absolute;
+	width: 216px;
+	height: 55px;
+	top: 20px;
+	left: 4px;
+	background-color: #f0f0f0;
+	border: 1px solid #000;
+	border-radius: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+}
+.upperLine {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+}
+.lowerLine {
+	position: absolute;
+	right: 3px;
+	top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.button {
+	position: absolute;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.button:hover {
+	background-color: #d3d3d3;
+}
+.numeric {
+	font-size: 25px;	
+}
+.binarOperation {
+	color: #5F5F5F;
+}
+.result {
+	color: #5F5F5F;	
+}
+.correction {
+	color: #5F5F5F;	
+}
+.unarOperation {
+	color: #5F5F5F;	
+}
+.memory {
+	color: #5F5F5F;
+}
+.simple .memory {
+	display: none;
+}
+.simple .unarOperation{
+	display: none;
+}
+.winManager {
+	font-size: 8px;
+}
+.viewChooseButton {
+	font-size: 10px;
+	font-weight: normal;
+}
+.memoryIndicator {
+	position: absolute;
+	left: 3px;
+	top: 5px;
+	text-align: left;
+} 
